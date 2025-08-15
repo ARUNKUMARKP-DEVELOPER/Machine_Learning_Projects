@@ -10,7 +10,7 @@ This project involves building machine learning models to classify whether a Nea
 
 ---
 
-## 📂 Dataset Overview
+## Dataset Overview
 
 - **Source:** [Information on Asteroids collected from NASA API](https://cneos.jpl.nasa.gov/)
 - **Total Records:** 4,687
@@ -19,7 +19,7 @@ This project involves building machine learning models to classify whether a Nea
 
 ---
 
-## 📊 Features Used
+## Features Used
 
 Some of the key features used for classification:
 
@@ -32,7 +32,7 @@ Some of the key features used for classification:
 
 ---
 
-## 🧠 Models Trained
+## Models Trained
 
 | Model               | Accuracy | Precision | Recall | F1-Score |
 |--------------------|----------|-----------|--------|----------|
@@ -45,11 +45,11 @@ Some of the key features used for classification:
 | **Logistic Regression**   | 90.62%   | 0.99 / 0.63 | 0.90 / 0.97 | 0.94 / 0.76 |
 | **Support Vector Classifier** | 90.72% | 0.99 / 0.64 | 0.90 / 0.94 | 0.94 / 0.76 |
 
-> 🔍 Models like Gradient Boosting, Decision Tree, XGBoost, and Random Forest achieved **near-perfect results**, indicating high separability between the two classes using selected features.
+> Models like Gradient Boosting, Decision Tree, XGBoost, and Random Forest achieved **near-perfect results**, indicating high separability between the two classes using selected features.
 
 ---
 
-## ✅ Evaluation Metrics
+## Evaluation Metrics
 
 All models were evaluated using:
 
@@ -62,7 +62,7 @@ All models were evaluated using:
 
 ---
 
-## 🔧 Tech Stack
+## Tech Stack
 
 - Python
 - Pandas, NumPy
@@ -72,8 +72,9 @@ All models were evaluated using:
 
 ---
 
-## 📌 How to Use
+## How to Use
 
 1. Clone the repository:
    ```bash
    git clone https://github.com/yourusername/nasa-asteroid-classification.git
+
