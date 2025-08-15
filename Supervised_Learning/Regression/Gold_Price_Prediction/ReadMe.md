@@ -79,7 +79,7 @@ This project aims to predict **Gold Prices** using macroeconomic and financial i
 
 ## 📈 Visualization
 
-![Gold Price Prediction](assets/gold_price_plot.png)
+![Actual_Vs_Prdicted](screenshots/output.png)
 
 *(Plot comparing actual vs predicted gold prices)*
 
@@ -91,5 +91,6 @@ This project aims to predict **Gold Prices** using macroeconomic and financial i
 - Include lag-based features for better temporal learning.
 - Integrate additional macroeconomic indicators (e.g., inflation forecast, unemployment rates).
 - Perform hyperparameter tuning for better accuracy and robustness.
+
 
 ---
