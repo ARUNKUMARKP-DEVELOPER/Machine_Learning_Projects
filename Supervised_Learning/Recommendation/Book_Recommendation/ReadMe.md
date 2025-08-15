@@ -1,10 +1,10 @@
-# 📚 Books Recommendation System
+# Books Recommendation System
 
 This project presents a **Book Recommendation System** built using **K-Nearest Neighbors (KNN)** to suggest similar books based on a user's input. It leverages collaborative filtering on user rating data to make personalized recommendations.
 
 ---
 
-## 🔗 Dataset
+## Dataset
 
 - **Source**: [Kaggle - Book Recommendation Dataset](https://www.kaggle.com/datasets/arashnic/book-recommendation-dataset/data?select=Books.csv)
 - **Files Used**:
@@ -13,7 +13,7 @@ This project presents a **Book Recommendation System** built using **K-Nearest N
 
 ---
 
-## 🧠 Project Objective
+## Project Objective
 
 To develop a **content-based book recommender** using the KNN algorithm that:
 - Filters out users with very few ratings
@@ -23,9 +23,9 @@ To develop a **content-based book recommender** using the KNN algorithm that:
 
 ---
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
-- Python 🐍
+- Python
 - pandas, NumPy
 - scikit-learn
 - Matplotlib
@@ -34,7 +34,7 @@ To develop a **content-based book recommender** using the KNN algorithm that:
 
 ---
 
-## 📊 Data Preprocessing
+## Data Preprocessing
 
 - Removed null and duplicate values from the datasets
 - Filtered:
@@ -46,7 +46,7 @@ To develop a **content-based book recommender** using the KNN algorithm that:
 
 ---
 
-## 🔍 Model: K-Nearest Neighbors (KNN)
+## Model: K-Nearest Neighbors (KNN)
 
 - **Similarity Metric**: Cosine similarity
 - **Model**: `sklearn.neighbors.NearestNeighbors`
@@ -55,9 +55,10 @@ To develop a **content-based book recommender** using the KNN algorithm that:
 
 ---
 
-## 🚀 How It Works
+## How It Works
 
 ```python
 # Get top 5 similar books
 books = get_recommends("The Queen of the Damned (Vampire Chronicles (Paperback))")
 print(books)
+
