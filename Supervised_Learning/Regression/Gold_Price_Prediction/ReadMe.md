@@ -4,7 +4,7 @@ This project aims to predict **Gold Prices** using macroeconomic and financial i
 
 ---
 
-## 📈 Visualization
+## Visualization
 
 ![Actual_Vs_Prdicted](screenshots/output.png)
 
@@ -12,7 +12,7 @@ This project aims to predict **Gold Prices** using macroeconomic and financial i
 
 ---
 
-## 📁 Dataset
+## Dataset
 
 - **Source**: [Kaggle – Financial Data](https://www.kaggle.com/datasets/franciscogcc/financial-data?select=financial_regression.csv)`
 
@@ -44,7 +44,7 @@ This project aims to predict **Gold Prices** using macroeconomic and financial i
 
 ---
 
-## 📌 Workflow
+## Workflow
 
 ### 1. **Data Collection & Loading**
 - The dataset is loaded into a Pandas DataFrame and inspected for nulls and irrelevant columns.
@@ -72,7 +72,7 @@ This project aims to predict **Gold Prices** using macroeconomic and financial i
 
 ---
 
-## ✅ Results
+## Results
 
 | **Metric**     | **Value** |
 |----------------|-----------|
@@ -85,7 +85,7 @@ This project aims to predict **Gold Prices** using macroeconomic and financial i
 
 ---
 
-## 🚀 Future Improvements
+## Future Improvements
 
 - Use ensemble models like Random Forest, XGBoost for better generalization.
 - Include lag-based features for better temporal learning.
@@ -94,4 +94,5 @@ This project aims to predict **Gold Prices** using macroeconomic and financial i
 
 
 ---
+
 
