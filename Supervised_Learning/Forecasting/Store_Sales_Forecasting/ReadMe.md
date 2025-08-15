@@ -4,12 +4,18 @@ This project performs **time series analysis and forecasting** on sales data fro
 
 ---
 
-## 🗃️ Dataset
+## Visualization
+
+![Actual_and_Prdicted](screenshots/output.png)
+
+---
+
+## Dataset
 
 * **Source**: [Kaggle - Store Sales Forecasting Dataset](https://www.kaggle.com/datasets/tanayatipre/store-sales-forecasting-dataset/data?select=stores_sales_forecasting.csv)
 
 
-### 📌 Dataset Features
+### Dataset Features
 
 | Column Name   | Description                                |
 | ------------- | ------------------------------------------ |
@@ -37,7 +43,7 @@ This project performs **time series analysis and forecasting** on sales data fro
 
 ---
 
-## 📊 Project Workflow
+## Project Workflow
 
 ### 1. Data Exploration & Cleaning
 
@@ -71,7 +77,7 @@ This project performs **time series analysis and forecasting** on sales data fro
 
 ---
 
-## 📈 Visualizations
+## Visualizations
 
 * Distribution plots (Sales, Quantity, Profit)
 * Monthly Sales Line Plot
@@ -81,7 +87,7 @@ This project performs **time series analysis and forecasting** on sales data fro
 
 ---
 
-## 🧪 Model Summary
+## Model Summary
 
 | Model  | AIC    | Seasonal | Key Insight                      |
 | ------ | ------ | -------- | -------------------------------- |
@@ -92,7 +98,7 @@ This project performs **time series analysis and forecasting** on sales data fro
 
 ---
 
-## 🧠 Key Learnings
+## Key Learnings
 
 * Time series models like SARIMA handle seasonality better than basic ARIMA.
 * Importance of making time series stationary before modeling.
@@ -109,7 +115,7 @@ This project performs **time series analysis and forecasting** on sales data fro
 
 ---
 
-## 🚀 How to Run
+## How to Run
 
 1. Clone the repo:
 
@@ -129,10 +135,11 @@ This project performs **time series analysis and forecasting** on sales data fro
 
 ---
 
-## 📌 Future Improvements
+## Future Improvements
 
 * Hyperparameter tuning with GridSearch for ARIMA/SARIMA
 * Deploy as a forecasting web app using Flask
 * Try Facebook Prophet or LSTM for advanced modeling
+
 
 ---
