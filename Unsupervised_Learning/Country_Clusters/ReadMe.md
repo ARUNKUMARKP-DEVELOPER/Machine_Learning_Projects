@@ -53,8 +53,10 @@ The aim is to apply **unsupervised clustering (KMeans)** on countries using rele
 - Correlation heatmap
 - Scatter plots using Plotly
 
--**Clusters**
-![Clusters](screenshots/output.png)
+## Clusters Visualization
+
+![Actual_Vs_Prdicted](screenshots/output.png)
+
 ---
 
 ## 🔗 Clustering with KMeans
@@ -72,4 +74,5 @@ from sklearn.decomposition import PCA
 
 pca = PCA(n_components=2)
 pca_data = pca.fit_transform(scaled_features)
+
 
