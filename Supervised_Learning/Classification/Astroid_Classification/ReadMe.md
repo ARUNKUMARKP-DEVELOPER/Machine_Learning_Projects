@@ -10,6 +10,12 @@ This project involves building machine learning models to classify whether a Nea
 
 ---
 
+## Model Results
+
+![Model Results](screenshots/output.png)
+
+---
+
 ## Dataset Overview
 
 - **Source:** [Information on Asteroids collected from NASA API](https://cneos.jpl.nasa.gov/)
@@ -77,4 +83,5 @@ All models were evaluated using:
 1. Clone the repository:
    ```bash
    git clone https://github.com/yourusername/nasa-asteroid-classification.git
+
 
