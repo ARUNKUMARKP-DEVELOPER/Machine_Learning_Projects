@@ -4,6 +4,12 @@ This project presents a **Book Recommendation System** built using **K-Nearest N
 
 ---
 
+## Model Results
+
+![Model Results](Screenshot.png)
+
+---
+
 ## Dataset
 
 - **Source**: [Kaggle - Book Recommendation Dataset](https://www.kaggle.com/datasets/arashnic/book-recommendation-dataset/data?select=Books.csv)
