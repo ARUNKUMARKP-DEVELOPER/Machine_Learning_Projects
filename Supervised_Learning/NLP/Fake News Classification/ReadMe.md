@@ -6,6 +6,12 @@ This project involves building a machine learning model to detect fake news arti
 
 ---
 
+## Model Results
+
+![Model Results](Screenshot.png)
+
+---
+
 ## Dataset Description
 
 - **Dataset Source**: [Kaggle - Fake News Classification](https://www.kaggle.com/datasets/aadyasingh55/fake-news-classification)
@@ -91,3 +97,4 @@ The model's performance metrics were visualized using bar plots for precision, r
 
 
 ---
+
